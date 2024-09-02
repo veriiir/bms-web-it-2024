@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tailwind | BMS IT 2024</title>
+
+    <style>
+      .card {
+        width: 288px;
+        background: gray;
+        color: white;
+        padding: 24px;
+        margin-top: 12px;
+        border-radius: 16px;
+      }
+      .margin-top-64 {
+        margin-top: 64px;
+      }
+    </style>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        corePlugins: {
+          preflight: false
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <a href="index.html">Back</a>
+    <div class="card">
+      <h1>Card dengan CSS</h1>
+      <p>Ini captionnya</p>
+      <p class="margin-top-64">
+        ini contentnya. Lorem ipsum dolor sit amet, qui minim labore adipisicing
+        minim sint cillum sint consectetur cupidatat.
+      </p>
+    </div>
+    <div class="p-6 rounded-2xl bg-gray-400 w-72 mt-3 text-white">
+      <h1>Card dengan Tailwind</h1>
+      <p>Ini captionnya</p>
+      <p class="mt-16">
+        ini contentnya. Lorem ipsum dolor sit amet, qui minim labore adipisicing
+      </p>
+        minim sint cillum sint consectetur cupidatat.
+    </div>
+  </body>
+</html>
